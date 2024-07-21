@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.onclick = function () {
                 taskList.removeChild(li);
             };
+
             li.appendChild(btn);
             taskList.appendChild(li);
             taskInput.value = "";
@@ -35,5 +36,5 @@ document.addEventListener("DOMContentLoaded", function () {
             addTask();
         }
 
-    })
-})
+    });
+});
